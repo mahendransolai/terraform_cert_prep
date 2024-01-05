@@ -5,6 +5,6 @@ provider "aws" {
 resource "aws_instance" "example" {
     ami           = "ami-0c7217cdde317cfec"  # Specify an appropriate AMI ID
     instance_type = "t2.micro"
-    subnet_id = "subnet-0cf34600d59557f5c"
-    key_name = "aws_login"
+    subnet_id = "subnet-0cf34600d59557f5c" // frm aws
+    key_name = "aws_login" //frm aws
 }
